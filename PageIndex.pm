@@ -1,14 +1,7 @@
 package HTML::PageIndex;
 
-# $Id: PageIndex.pm,v 0.2 1998/12/23 18:47:22 meltzek Exp meltzek $
-
-# $Log: PageIndex.pm,v $
-# Revision 0.2  1998/12/23 18:47:22  meltzek
-# Added POD.
-#
-# Revision 0.1  1998/12/23 17:56:13  meltzek
-# Generates index well.
-#
+use vars qw(@ISA @EXPORT @EXPORT_OK %EXPORT_TAGS $VERSION);
+use strict;
 
 require Exporter;
 
@@ -16,9 +9,7 @@ require Exporter;
 @EXPORT=qw();
 @EXPORT_OK=qw();
 
-($VERSION = substr(q$Revision: 0.2 $, 10)) =~ s/\s+$//;
-
-use strict;
+$VERSION = '0.3';
 
 sub new {
 	my ($class) = @_; 
@@ -198,24 +189,10 @@ site near you.
 
 Or, from <URL:http://www.perlguy.com/perl>.
 
-=head1 VERSION
-
-$Revision: 0.2 $ $Date: 1998/12/23 18:47:22 $
-
-=head1 CHANGES
-
-$Log: PageIndex.pm,v $
-Revision 0.2  1998/12/23 18:47:22  meltzek
-Added POD.
-
-
 =head1 AUTHOR INFORMATION
 
-Copyright 1998-99, Kevin Meltzer.  All rights reserved.  It may
-be used and modified freely, but I do request that this copyright
-notice remain attached to the file.  You may modify this module as you
-wish, but if you redistribute a modified version, please attach a note
-listing the modifications you have made.
+Copyright 2002, Kevin Meltzer. This software is releases with no warranty, and
+under the terms of Perl itself.
 
 Address bug reports and comments to:
 perlguy@perlguy.com

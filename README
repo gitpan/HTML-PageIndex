@@ -63,29 +63,3 @@ site near you.
 
 Or, from http://www.perlguy.com/perl.
 
-VERSION
-
-$Revision: 0.2 $ $Date: 1998/12/23 18:47:22 $
-
-CHANGES
-
-$Log: PageIndex.pm,v $
-Revision 0.2  1998/12/23 18:47:22  meltzek
-Added POD.
-
-
-AUTHOR INFORMATION
-
-Copyright 1998-99, Kevin Meltzer.  All rights reserved.  It may
-be used and modified freely, but I do request that this copyright
-notice remain attached to the file.  You may modify this module as you
-wish, but if you redistribute a modified version, please attach a note
-listing the modifications you have made.
-
-Address bug reports and comments to:
-perlguy@perlguy.com
-
-The author makes no warranties, promises, or gaurentees of this software. As with all
-software, use at your own risk.
-
-
